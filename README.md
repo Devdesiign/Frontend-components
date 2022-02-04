@@ -1,16 +1,17 @@
-# CSS-Property-Test
+## Frontend-components
 
-Welcome here, I am practicing my CSS skills by building Custom Components that i could refer to whenever i need them, 
+> This Repo contains reusable CSS Components like Cards, Forms, Header, etc.
+
+Hi there ✨, It's **Devdesiign** here, I am sharpening my skills in HTML5 && CSS3 with a touch of JavaScript in the quest to be a World-Class 💯🚀.
 <br>
-Note: At the Moment of typing this, i haven't worked on any project but i am just building this maybe it might come in handy.
-<br>
+
+*I created this repo as a test to my showcase my ability with css and to make work easier for me whenever i need to use components. I know its pretty lame since i could use frameworks like **Tailwind and Bootstrap** but i really want to maximize my skill so here we are.*
+
+Ciao ✌
 
 
 
 
-Love From DevDesiign.
-<br>
-<h3> Follow Me </h3>
-<a href="https://www.twitter.com/devdesiign"> Twitter </a> 
-<a href="https://www.linkedin.com/in/devdesiign"> Linkedin </a> 
-<a href="https://www.instagram.com/dev.desiign"> Instagram </a> 
+
+
+
