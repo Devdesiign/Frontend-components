@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0bc1b0186a.js" crossorigin="anonymous"></script>
+    <title>Header</title>
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<header>
+    <container>
+        <h2 class="logo">Logo</h2>
+        <nav>
+            <div class="dropdown mobile-item">
+                <i class="fas fa-bars menu-open menu" id="menu-open" onclick="showMenu()"></i>
+                <i class="fas fa-times menu-close menu" id="menu-close" onclick="closeMenu()"></i>
+                <div class="dropdown-content" id="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                    <a href="#">Link 5</a>
+                </div>
+            </div>
+            <div class="desktop-item">
+                <a href="#" class="nav-list">Link 1</a>
+                <a href="#" class="nav-list">Link 2</a>
+                <a href="#" class="nav-list">Link 3</a>
+                <a href="#" class="nav-list">Link 4</a>
+                <a href="#" class="nav-list">Link 5</a>
+            </div>
+        </nav>
+        <a href="#" class="login-btn desktop-item">Login</a>
+    </container>
+    <script>
+        function showMenu() {
+            document.getElementById("menu-open").style.display = "none";
+            document.getElementById("dropdown-content").style.display = "block";
+            document.getElementById("menu-close").style.display = "block";
+        }
+
+        function closeMenu() {
+            document.getElementById("menu-close").style.display = "none";
+            document.getElementById("dropdown-content").style.display = "none";
+            document.getElementById("menu-open").style.display = "block";
+        }
+    </script>
+</header>
+
+</html>
