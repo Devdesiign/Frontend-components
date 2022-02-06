@@ -7,4 +7,4 @@ Hi there ✨, It's **Devdesiign** here, I am sharpening my skills in HTML5 && CS
 
 *I created this repo as a test to my showcase my ability with css and to make work easier for me whenever i need to use components. I know its pretty lame since i could use frameworks like **Tailwind and Bootstrap** but i really want to maximize my skill so here we are.*
 
-Ciao ✌
+Ciao ✌'''
