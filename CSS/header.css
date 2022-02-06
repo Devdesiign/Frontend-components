@@ -17,7 +17,7 @@ container {
 
 .logo {
     margin: auto 0;
-    color: #03045e;
+    color: #222;
     font-size: 2rem;
 }
 
@@ -31,7 +31,7 @@ container {
 .login-btn {
     text-decoration: none;
     padding: 4px;
-    color: #03045e;
+    color: #222;
     font-size: 1.02rem;
 }
 
@@ -41,15 +41,15 @@ container {
 
 .login-btn {
     padding: 8px 16px;
-    background-color: #03045e;
+    background-color: #222;
     color: #f1f1f1;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    border: 1px solid #03045e;
-    transition: color, background-color ease-in-out 400ms;
+    border: 1px solid #222;
+    transition: color, background-color ease-in-out 300ms;
     -moz-transition: color, background-color ease-in-out 400ms;
     -ms-transition: color, background-color ease-in-out 400ms;
     -o-transition: color, background-color ease-in-out 400ms;
@@ -58,15 +58,15 @@ container {
 
 .login-btn:hover {
     background-color: #f1f1f1;
-    color: #03045e;
-    border: 1px solid #03045e;
+    color: #222;
+    border: 1px solid #222;
 }
 
 .menu {
     font-size: 2rem;
     cursor: pointer;
     padding: 4px;
-    color: #03045e;
+    color: #222;
 }
 
 .menu-close {
@@ -84,7 +84,7 @@ container {
 }
 
 .dropdown-content a {
-    background-color: hsl(239, 50%, 40%);
+    background-color: #444;
     padding: 16px;
     text-decoration: none;
     display: block;
@@ -96,7 +96,7 @@ container {
 }
 
 .dropdown-content a:hover {
-    background-color: #03055e;
+    background-color: #222;
 }
 
 /* Mobile View { 599px - Downward } */
