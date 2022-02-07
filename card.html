@@ -1,37 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card</title>
     <link rel="stylesheet" href="CSS/card.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/0bc1b0186a.js" crossorigin="anonymous"></script>
-</head>
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0bc1b0186a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <container>
+
         <div class="card">
             <div class="card-img overlay">
-                <h2 class="overlay">Card Location</h2>
-
+              <h2 class="overlay-text">Card Location</h2>
             </div>
             <div class="content">
-                <h2 class="main">Card Header</h2>
-                <i class="far fa-heart like-icon" id="like" onclick="likeCard()"></i>
-                <i class="fas fa-heart like-icon" id="liked" onclick="unlikeCard()"></i>
-                <p class="sub">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea non dolorem.
-                </p>
+              <h2 class="main">Card Header</h2>
+              <i class="far fa-heart like-icon" id="like" onclick="likeCard()"></i>
+              <i
+                class="fas fa-heart like-icon"
+                id="liked"
+                onclick="unlikeCard()"
+              ></i>
+              <p class="sub">
+                Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea
+                non dolorem.
+              </p>
             </div>
-        </div>
-    </container>
-</body>
+          </div>
 
+      <div class="card">
+        <div class="card-img overlay">
+          <h2 class="overlay-text">Card Location</h2>
+        </div>
+        <div class="content">
+          <h2 class="main">Card Header</h2>
+          <i class="far fa-heart like-icon" id="like" onclick="likeCard()"></i>
+          <i
+            class="fas fa-heart like-icon"
+            id="liked"
+            onclick="unlikeCard()"
+          ></i>
+          <p class="sub">
+            Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea non
+            dolorem.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img overlay">
+          <h2 class="overlay-text">Card Location</h2>
+        </div>
+        <div class="content">
+          <h2 class="main">Card Header</h2>
+          <i class="far fa-heart like-icon" id="like" onclick="likeCard()"></i>
+          <i
+            class="fas fa-heart like-icon"
+            id="liked"
+            onclick="unlikeCard()"
+          ></i>
+          <p class="sub">
+            Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea non
+            dolorem.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img overlay">
+          <h2 class="overlay-text">Card Location</h2>
+        </div>
+        <div class="content">
+          <h2 class="main">Card Header</h2>
+          <i class="far fa-heart like-icon" id="like" onclick="likeCard()"></i>
+          <i
+            class="fas fa-heart like-icon"
+            id="liked"
+            onclick="unlikeCard()"
+          ></i>
+          <p class="sub">
+            Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea
+            non dolorem.
+          </p>
+        </div>
+      </div>
+
+    </container>
+
+    <script>
+      function likeCard() {
+        document.getElementById("like").style.display = "none";
+        document.getElementById("liked").style.display = "inline-block";
+      }
+      function unlikeCard() {
+        document.getElementById("liked").style.display = "none";
+        document.getElementById("like").style.display = "inline-block";
+      }
+    </script>
+  </body>
 </html>
