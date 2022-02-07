@@ -39,7 +39,7 @@ container {
     position: relative;
     top: 50%;
     opacity: 0;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: white;
 }
 
@@ -47,17 +47,16 @@ container {
     padding: 8px;
 }
 
-.content .main {
-    display: inline-block;
-    font-size: 1.6rem;
-    margin: 16px 0px 0px 16px;
+.content .line-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 16px;
 }
 
+.content .main,
 .content .like-icon {
     font-size: 1.6rem;
-    position: relative;
-    left: 30%;
-    display: inline-block;
 }
 
 .content .fas {
@@ -67,10 +66,16 @@ container {
 .content .sub {
     font-size: 1.02rem;
     margin: 16px;
+    margin-top: 0px;
 }
 
 .overlay:hover h2 {
     opacity: 1;
+    transition: opacity 800ms ease;
+    -webkit-transition: opacity 800ms ease;
+    -moz-transition: opacity 800ms ease;
+    -ms-transition: opacity 800ms ease;
+    -o-transition: opacity 800ms ease;
 }
 
 .card-img:hover {
