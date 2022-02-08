@@ -1,0 +1,18 @@
+container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+subcontainer{
+    font-family: 'M PLUS Code Latin';
+}
+.title{
+font-size: 1.6rem;
+}
+
+label{
+    font-size: 1.02rem;
+    background-color: red;
+    display: block;
+
+}
