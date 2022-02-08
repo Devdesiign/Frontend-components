@@ -16,6 +16,22 @@
 
 <body>
   <container>
+    <div class="card">
+      <div class="card-img overlay">
+        <h2 class="overlay-text">Card Location</h2>
+      </div>
+      <div class="content">
+        <div class="line-1">
+          <h2 class="main">Card Header</h2>
+          <i class="far fa-heart like-icon normal-btn"></i>
+          <i class="fas fa-heart like-icon clicked-btn"></i>
+        </div>
+        <p class="sub">
+          Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea
+          non dolorem.
+        </p>
+      </div>
+    </div>
 
     <div class="card">
       <div class="card-img overlay">
@@ -24,8 +40,8 @@
       <div class="content">
         <div class="line-1">
           <h2 class="main">Card Header</h2>
-          <i class="far fa-heart like-icon" id="like" onclick="likeCard()"></i>
-          <i class="fas fa-heart like-icon" id="liked" onclick="unlikeCard()"></i>
+          <i class="far fa-heart like-icon normal-btn"></i>
+          <i class="fas fa-heart like-icon clicked-btn"></i>
         </div>
         <p class="sub">
           Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea
@@ -36,14 +52,13 @@
   </container>
 
   <script>
-    function likeCard() {
-      document.getElementById("like").style.display = "none";
-      document.getElementById("liked").style.display = "inline-block";
-    }
+    let normalButtons = document.querySelectorAll(".normal-btn");
+    let clickedBtns = document.querySelectorAll(".clicked-btn");
 
-    function unlikeCard() {
-      document.getElementById("liked").style.display = "none";
-      document.getElementById("like").style.display = "inline-block";
+    for (const normalButton of normalButtons) {
+      normalButton.addEventListener('click', () => {
+        normalButton.style.display = 'none';
+      })
     }
   </script>
 </body>
