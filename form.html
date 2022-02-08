@@ -12,21 +12,27 @@
         href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="CSS/form.css" />
+    <script src="https://kit.fontawesome.com/0bc1b0186a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <container>
-        <subcontainer>
+        <div class="subcontainer-1">
             <h2 class="title">Login</h2>
             <form action="#" autocomplete="on" name="Login" method="POST">
-                <label for="firstname">Email / Username:</label>
-                <input type="text" name="username" id="username" placeholder="Admin@form.com" required />
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="********" required /><br />
-                <a href="#" class="forgot-password">Forgot Password?</a>
-                <input type="submit" value="Login" />
+                <label for="Username">Username: </label>
+                <input type="text" name="username" id="username" placeholder="Username" required /><br />
+                <label for="Password">Password: </label>
+                <input type="password" name="password" id="password" placeholder="Password" required /><br />
+                <input type="submit" value="LOGIN" />
             </form>
-        </subcontainer>
+            <a href="#">Forgot Password?</a>
+
+        </div>
+        <hr>
+        <div class="subcontainer-2"><i class="fab fa-google"></i><i class="fab fa-facebook"></i>
+            <p class="signup">No Account Yet? <a href="#" class="signup-link">Create An Account!</a></p>
+        </div>
     </container>
 </body>
 
