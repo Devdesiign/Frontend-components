@@ -5,14 +5,8 @@ container{
 }
 subcontainer{
     font-family: 'M PLUS Code Latin';
+    text-align: center;
 }
 .title{
 font-size: 1.6rem;
-}
-
-label{
-    font-size: 1.02rem;
-    background-color: red;
-    display: block  ;
-
 }
