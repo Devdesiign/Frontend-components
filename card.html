@@ -23,7 +23,6 @@
       <div class="content">
         <div class="line-1">
           <h2 class="main">Card Header</h2>
-          <i class="far fa-heart like-icon normal-btn"></i>
           <i class="fas fa-heart like-icon clicked-btn"></i>
         </div>
         <p class="sub">
@@ -40,7 +39,6 @@
       <div class="content">
         <div class="line-1">
           <h2 class="main">Card Header</h2>
-          <i class="far fa-heart like-icon normal-btn"></i>
           <i class="fas fa-heart like-icon clicked-btn"></i>
         </div>
         <p class="sub">
@@ -49,15 +47,19 @@
         </p>
       </div>
     </div>
+
   </container>
 
   <script>
-    let normalButtons = document.querySelectorAll(".normal-btn");
     let clickedBtns = document.querySelectorAll(".clicked-btn");
-
-    for (const normalButton of normalButtons) {
-      normalButton.addEventListener('click', () => {
-        normalButton.style.display = 'none';
+    for (const clickedBtn of clickedBtns) {
+      clickedBtn.addEventListener('click', () => {
+        //clickedBtn.style.color = '#ee4266';
+        if (clickedBtn.style.color == '') {
+          clickedBtn.style.color = '#ee4266';
+        } else {
+          clickedBtn.style.color = '';
+        }
       })
     }
   </script>
