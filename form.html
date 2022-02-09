@@ -6,32 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="CSS/form.css" />
-    <script src="https://kit.fontawesome.com/0bc1b0186a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/form.css">
 </head>
 
 <body>
     <container>
-        <div class="subcontainer-1">
-            <h2 class="title">Login</h2>
-            <form action="#" autocomplete="on" name="Login" method="POST">
-                <label for="Username">Username: </label>
-                <input type="text" name="username" id="username" placeholder="Username" required /><br />
-                <label for="Password">Password: </label>
-                <input type="password" name="password" id="password" placeholder="Password" required /><br />
-                <input type="submit" value="LOGIN" />
+        <div class="form-container">
+            <form action="form.html" method="post" autocomplete="on">
+                <label for="Email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="JohnDoe@example.com" required>
+                <label for="Password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="123$Gjai" required>
+                <button type="submit">Login</button>
             </form>
-            <a href="#">Forgot Password?</a>
-
-        </div>
-        <hr>
-        <div class="subcontainer-2"><i class="fab fa-google"></i><i class="fab fa-facebook"></i>
-            <p class="signup">No Account Yet? <a href="#" class="signup-link">Create An Account!</a></p>
         </div>
     </container>
 </body>

@@ -1,0 +1,36 @@
+.form-container {
+    width: 70vw;
+    max-width: 360px;
+    font-size: 1.02rem;
+}
+
+label {
+    margin: 0px auto 12px;
+    display: block;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 0px auto 24px 0px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    text-align: left;
+    border: none;
+    background-color: #f1f1f1;
+    height: 24px;
+    border-radius: 8px;
+    text-indent: 8px;
+}
+
+button {
+    border: 0;
+    padding: 16px 12px;
+    width: 108%;
+    display: block;
+    font-size: 1.1rem;
+    margin: 48px auto 0px;
+    border-radius: 8px;
+    color: #f1f1f1;
+    background-color: #444;
+}
