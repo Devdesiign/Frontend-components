@@ -23,7 +23,7 @@
       <div class="content">
         <div class="line-1">
           <h2 class="main">Card Header</h2>
-          <i class="fas fa-heart like-icon clicked-btn"></i>
+          <i class="fas fa-heart like-icon like-btn"></i>
         </div>
         <p class="sub">
           Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea
@@ -39,7 +39,7 @@
       <div class="content">
         <div class="line-1">
           <h2 class="main">Card Header</h2>
-          <i class="fas fa-heart like-icon clicked-btn"></i>
+          <i class="fas fa-heart like-icon like-btn"></i>
         </div>
         <p class="sub">
           Lorem ipsum dolor sit amet consectetur icing elit. Numquam ea
@@ -51,14 +51,13 @@
   </container>
 
   <script>
-    let clickedBtns = document.querySelectorAll(".clicked-btn");
-    for (const clickedBtn of clickedBtns) {
-      clickedBtn.addEventListener('click', () => {
-        //clickedBtn.style.color = '#ee4266';
-        if (clickedBtn.style.color == '') {
-          clickedBtn.style.color = '#ee4266';
+    let likeBtns = document.querySelectorAll(".like-btn");
+    for (const likeBtn of likeBtns) {
+      likeBtn.addEventListener('click', () => {
+        if (likeBtn.style.color == '') {
+          likeBtn.style.color = '#ee4266';
         } else {
-          clickedBtn.style.color = '';
+          likeBtn.style.color = '';
         }
       })
     }
