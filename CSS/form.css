@@ -32,8 +32,6 @@ label {
     display: block;
 }
 
-
-
 input {
     display: block;
     width: 100%;
@@ -108,11 +106,11 @@ button:hover {
 }
 
 .new-user {
-    color: #4EA5D9;
+    color: #1000FF;
     text-decoration: none;
 }
 
 .new-user:hover {
-    color: #084B83;
+    color: #4361EE;
     text-decoration: underline;
 }
